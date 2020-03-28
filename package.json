@@ -1,0 +1,14 @@
+{
+  "name": "docsthing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Bo H",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

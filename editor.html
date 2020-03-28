@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Docsthing</title>
+  <link rel='stylesheet' type='text/css' href='css/editor.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id='editBar'>
+    <button type=submit id='saveBtn' onclick='save()'>Save</button>
+    <input type='text' placeholder='Untitled Document' id='docName'></input>
+  </div>
+  <div id='paperContainer'>
+    <div id='paper'>
+      <div id='paperContent' contenteditable="true"></div>
+    </div>
+  </div>
+  <script src='js/app.js'></script>
+  <script src='js/editor.js'></script>
+</body>
+</html>
