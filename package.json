@@ -17,16 +17,12 @@
   },
   "homepage": "https://github.com/elinahedenius/docsthing#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "express-fileupload": "^1.1.6",
-    "fs": "0.0.1-security",
+    "expresss": "0.0.0",
     "http-server": "^0.12.1",
-    "ipfs": "^0.41.2",
+    "i": "^0.3.6",
     "ipfs-mini": "^1.1.5",
-    "it-all": "^1.0.1",
-    "js-ipfs": "0.0.301",
+    "mysql": "^2.18.1",
     "socket.io": "^2.3.0"
   }
 }
