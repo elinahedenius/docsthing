@@ -2,13 +2,31 @@
   "name": "docsthing",
   "version": "1.0.0",
   "description": "",
-  "main": "js/index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "http-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elinahedenius/docsthing.git"
   },
   "author": "Bo H",
-  "license": "LGPL-3.0-or-later",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elinahedenius/docsthing/issues"
+  },
+  "homepage": "https://github.com/elinahedenius/docsthing#readme",
   "dependencies": {
-    "http-server": "^0.12.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "fs": "0.0.1-security",
+    "http-server": "^0.12.1",
+    "ipfs": "^0.41.2",
+    "ipfs-mini": "^1.1.5",
+    "it-all": "^1.0.1",
+    "js-ipfs": "0.0.301",
+    "socket.io": "^2.3.0"
   }
 }
